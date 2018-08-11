@@ -57,18 +57,18 @@
 }
 #txtbx{
     border: 1px dotted #A59898;
-    width: 925px;
+    width: 75%;
     margin: 0px 15px 5px 15px;
     letter-spacing: 1px;
-    padding-left: 5px
+    padding-left: 5px;
 }
 textarea{
     border: 1px dotted #A59898;
     height: 215px;
-    width: 925px;
+    width: 75%;
     margin: 0 15px 0 15px;
     letter-spacing: 1px;
-    padding-left: 5px
+    padding-left: 5px;
 }
 button{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -80,6 +80,7 @@ button{
     margin: 15px 15px 2px 15px;
     padding: 7px 30px 5px 30px;
     font-size: 18pt;
+    width: 25%;
 }
 
 
@@ -262,7 +263,7 @@ nav{
     padding: 24px;
 }
 
-.topnav{
+.navlnk{
     display: flex;
     float: right;
     position: relative;
@@ -270,7 +271,7 @@ nav{
 
 }
 
-.topnav li{
+.navlnk li{
     border-left: ridge #A59898;
     list-style: none;
     margin: 25px 0 0 0;
@@ -312,7 +313,7 @@ header{
 
 @media screen and (max-width: 980px) {
 
-	#box1, #box2, #box3 {
+	#box-1, #box-2, #box-3 {
 		width: 75%;
 	}
 
@@ -331,20 +332,16 @@ header{
         margin:0 25px 0 25px;
         align-content: center;   
     }
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-        float: right;
-        display: block;
+    .navlnk{
+        display: inline;
+        position: fixed;
     }
-    .responsive {position: relative;}
-    .topnav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
+    .navlnk li{
+        margin: 0
+
     }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
+    #box-3{
+        height: 1350px;
     }
+
 }
