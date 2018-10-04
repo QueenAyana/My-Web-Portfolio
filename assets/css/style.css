@@ -211,11 +211,9 @@ nav{
 #name{
     float: left;
     display: block;
-    color: #ffffff;                   
-    background-color: #4aaaa5;
+    color: #ffffff;
     padding: 20px;
     height: 90px;
-    padding: 24px;
 }
 #nameImg{
     position: relative;
@@ -249,19 +247,6 @@ nav{
     margin: 25px 0 0 0;
 }
 /*------------------------------------Footer--------------------------------------*/
-footer{   
-    border-top: solid #4aaaa5;
-    background-color: #666666;
-    overflow: hidden;
-    position: sticky;
-    bottom: 0%;
-    left: 0;
-    width: 100%;
-    height: 60px;    
-    border-top-width: 4px;
-    z-index: 3;
-    clear:both;
-}
 
 /*-----------------------------------Media Query-------------------------------*/
 footer, header, nav, body{ 
