@@ -1,24 +1,18 @@
 /*---------------------------------About Me page----------------------------------------------*/
 .img-me{
     float: left;
-    height: 180x;
-    width: 130px;
-    margin: 20px 25px 30px 15px;
+    width: 155px;
+    margin: 25px 25px 20px 15px;
+    border: solid #cccccc;
 }
 
 #box-1{
     background-color: #ffffff;
     border: solid #cccccc;
-    position: fixed;
     padding: 40px 30px 40px 30px;
     margin: 40px 220px 40px 212px;
     border-width: 2px;
-    top: 90px;
-    left: 240px;
-    height: 420px;
-    width: 960px;   
 }
-
 .text{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -44,20 +38,16 @@
 #box-2{
     background-color: #ffffff;
     border: solid #cccccc;
-    position: fixed;
     padding: 40px 30px 40px 30px;
     margin: 40px 220px 40px 220px;
     border-width: 2px;
-    top: 90px;
-    left: 240px;
-    height: 535px;
-    width: 960px;
+
 }
 #label{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: fantasy;
     color: #777777;
-    margin: 2px 760px 2px 15px;
-    font-size: 15pt; 
+    margin: 2px 0 2px 15px;
+    font-size: 12pt; 
 }
 #txtbx{
     border: 1px dotted #A59898;
@@ -85,153 +75,106 @@ button{
     padding: 7px 30px 5px 30px;
     font-size: 18pt;
 }
+#submitBtn{
+    background-color: #4aaaa5;
+    font-family: fantasy;
+    width: 150px;
 
+}
+#contactCard1{
+    background-color: #ffffff
+    !important;
+    border: groove #cccccc
+    !important;
+    border-width: 4px
+    !important;
+    width: 400px;
+    top:20%;
+}
+#contactCard2{
+    background-color: #ffffff
+    !important;
+    border: groove #cccccc
+    !important;
+    border-width: 4px
+    !important;
+
+}
 
 /*---------------------------------Portfolio page-------------------------------------------------*/
 #box-3{
     background-color: #ffffff;
     border: solid #cccccc;
-    position: absolute;
+    position: relative;
     padding: 40px 30px 40px 30px;
-    margin: 40px 220px 40px 220px;
+    margin: 0px auto;
     border-width: 2px;
-    top: 90px;
-    left: 240px;
     height: 1150px;
     width: 960px;
 }
 
-/*hangman*/
+/*minecraft hangman*/
 #logo-1{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 65px;
-    top: 182px;
+    position: relative;
+    height: 100px;
     color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 25px;
+    margin: 15px 5px 15px 5px;
+    padding: 10px;
+    left: 50px;
 }
-#label1{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    position: absolute;
-    border-radius: 25px;
-    margin: 15px 15px 2px 15px;
-    padding: 7px 30px 5px 30px;
-    font-size: 15pt;
-    width: 184px;
-    top: 345px;
-    z-index: 2;
-}
-/*rock paper scissor*/
+/*engram buster*/
 #logo-2{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 308px;
-    top: 182px;
-    margin: 0 45px 0 45px;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 25px;
+    position: relative;
+    height: 60px;
+    width: 400px;
+    color: #ffffff;  
+    margin: 15px 10px 15px 0;
+    
 }
-#label2{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    position: absolute;
-    border-radius: 25px;
-    margin: 15px 15px 2px 15px;
-    padding: 7px 30px 5px 30px;
-    font-size: 15pt;
-    width: 184px;
-    top: 345px;
-    left: 315px;
-    z-index: 2;
-}
-/*trivia*/
+/*giftastic*/
 #logo-3{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    top: 420px;
-    left: 20px;
-    margin: 30px 45px 30px 45px;
+    position: relative;
+    height: 60px;
     color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 25px;
+    margin: 15px 0 15px 5px;
+    left: 25px;
 }
-#label3{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    position: absolute;
-    border-radius: 25px;
-    margin: 15px 15px 2px 15px;
-    padding: 7px 30px 5px 30px;
-    font-size: 15pt;
-    width: 184px;
-    top: 615px;
-    z-index: 2;
-}
-/*rpg*/
+/*furry friend finder*/
 #logo-4{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 315px;
-    top: 420px;
-    margin: 30px 45px 30px 45px    
-}
-#label4{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    background-color: #4aaaa5;
+    position: relative;
+    height: 60px;
     color: #ffffff;
-    border: 2px solid #ffffff;
-    position: absolute;
-    border-radius: 25px;
-    margin: 15px 15px 2px 15px;
-    padding: 7px 30px 5px 30px;
-    font-size: 15pt;
-    width: 184px;
-    left: 315px;
-    top: 615px;
-    z-index: 2;
+    left: 25px;  
+    margin: 15px 0 15px 5px;
 }
-/*Rutgers*/
+/*empty untill liri is done*/
 #logo-5{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 5px;
-    bottom: 273px;
-    margin: 30px 45px 30px 45px
-}
-#label5{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    background-color: #4aaaa5;
+    position: relative;
+    height: 60px;
     color: #ffffff;
-    border: 2px solid #ffffff;
-    position: absolute;
-    border-radius: 25px;
-    margin: 15px 15px 2px 15px;
-    padding: 7px 30px 5px 30px;
-    font-size: 15pt;
-    width: 184px;
-    bottom: 298px;
-    z-index: 2;
 }
+#portTxt{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 20px 15px 20px 15px;
+    font-size: 14pt;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    border-bottom: dashed 4px;
+    border-bottom-color: #dddddd;
+}
+#portTxt2{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #626262;
+    margin: 35px 15px 17px 15px;
+    font-size: 14pt;
+    letter-spacing: 1px;
+}
+#gitLink{
+    color:#1c908b
+    !important;
 
+}
 /*--------------------------------------Background---------------------------------------*/
 body{
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
@@ -250,39 +193,53 @@ nav{
     height: 90px;
 }
 
+.navlnk{
+    display: flex;
+    float: right;
+    position: relative;
+    right: 40px;
+    font-size: 14pt
+
+}
 #name{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
     float: left;
     display: block;
     color: #ffffff;                   
     background-color: #4aaaa5;
-    font-size: 24px;
-    letter-spacing: 1px;
-    line-height: 1.8;
-    margin: 0 100px 0 220px;
     padding: 20px;
     height: 90px;
 }
+#nameImg{
+    position: relative;
+    width: 400px;
+}
 
-.navlnk{
-    display: flex;
-    float: right;
-    padding: 3px 220px 0px 0px;
+#portfolio{
+    border-left: ridge #A59898;
+    border-left-width: 1px;
+    border-right: ridge #A59898;
+    border-right-width: 1px;
+    margin: 25px 10px 0 10px;
+    padding: 0 10px 0 10px;
+    color: #A59898 
+    !important;
+}
+#index{
+    padding: 0 0 0 10px;
+    color: #A59898 
+    !important;
+}
+
+#contact{
+    padding: 0 10px 0 0;
+    color: #A59898 
+    !important;
 }
 
 .navlnk li{
-    border-left: ridge #A59898;
     list-style: none;
     margin: 25px 0 0 0;
-    padding: 0 10px 0 10px;
-    border-left-width: 1px;
 }
-
-a{
-    color: #A59898
-}
-
 /*------------------------------------Footer--------------------------------------*/
 footer{   
     border-top: solid #4aaaa5;
