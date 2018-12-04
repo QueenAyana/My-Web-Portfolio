@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amber Brune</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- <div class="col-4"></div> -->
+                    <div class="col-12" id="name">
+                        <img id="nameImg" src="assets/images/Amber-Brune.png" alt="Amber Brune">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="jumbotron" id="box-1">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="title">About Me!</div>
+                            </div>
+                            <div class="col-12">
+                                <img class="imgMe" src="assets/images/good-me.jpg" alt="">
+                                <div class="text">
+                                    <p>Well hello there! My name is Amber Renée Brune, I am 27 years old and this is my
+                                        web-based
+                                        portfolio.
+                                        I am currently a student at UCLA in their full stack web development bootcamp.
+                                        I will be graduating from the program in January 2019. I'm an avid PC gamer and
+                                        ballet dancer. </p>
+                                    <p>I am very comfortable coding in the front end and backend departments, but my
+                                        artistic mind is stronger with UX/UI designing. I have learned a lot in
+                                        class so far. I enjoy creating beautiful UX/UI designed pages using a
+                                        combination of bootstrap and vanilla CSS, and the challenge of making a functional backend server with 
+                                        nodeJS. 
+                                        I have a good understanding of MySql/sequilize and am currently learning mongoDB. 
+                                    </p>
+                                    <p>I value truth and honor above most things and always pride myself on my work
+                                        ethic. I've
+                                        been blessed
+                                        with an understanding that all the work you do in life has your name on it.
+                                        Therefore,
+                                        I
+                                        always
+                                        work my hardest to make my work represent someone who values what they do.
+                                    </p>
+                                </div>
+                                <!-- Modal Button -->
+                                <button type="button" id="modalBtn" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#modalCenter">
+                                    Contact Info.
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalCenterTitle">Amber Renee Brune</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p id="modal-text">If you wish to use other means to contact me:</p>
+                                                <p id="modal-text">My Cell:(424) 318-8289</p>
+                                                <p id="modal-text">My Email: amberrose9167@gmail.com</p>
+                                                <p><a href="https://drive.google.com/file/d/1anJM0lOk92T_4n8qJqtgXnYeshImEjcr"
+                                                        id="resumeLnk" class="card-link">
+                                                        My Resume PDF</a></p>
+                                                <p><a href="https://github.com/QueenAyana" id="gitLink" class="card-link">
+                                                        https://github.com/QueenAyana</a></p>
+                                                <p><a href="https://www.linkedin.com/in/amber-brune-076691165/" id="linkIn"
+                                                        class="card-link">
+                                                        https://www.linkedin.com/in/amber-brune-076691165/</a></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="jumbotron" id="box-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="title">My Work So Far..</div>
+                        </div>
+                        <div class="col-12">
+                            <p id="portTxt">Below are some links to applications I have designed myself as assignments
+                                for
+                                school.
+                                The functionality will vary based on what I had learned at the time. The applications
+                                will
+                                be updated over time as I fix some errors in the code. </p>
+                        </div>
+                        <!--Homework links im proud of  -->
+                        <div class="row">
+                            <div class="col-sm-6" id=imgCol>
+                                <a href="https://queenayana.github.io/minecraft-hangman/">
+                                    <img id="logo-1" src="assets/images/Minecraft.png">
+                                </a>
+                            </div>
+                            <div class="col-sm-6" id=imgCol>
+                                <a href="https://queenayana.github.io/EngramBuster/">
+                                    <img id="logo-2" src="assets/images/Engram-Buster.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6" id=imgCol>
+                                <a href="https://queenayana.github.io/Giftastic/">
+                                    <img id="logo-3" src="assets/images/GIFFTASTIC.png">
+                                </a>
+                            </div>
+                            <div class="col-sm-6" id=imgCol>
+                                <a href="https://guarded-escarpment-51398.herokuapp.com/">
+                                    <img id="logo-5" src="assets/images/Dragon-Dating.png">
+                                </a>
+                            </div>
+                        </div>
+                        <!--Project links im proud of  -->
+                        <div class="col-12">
+                            <p id="portTxt">Below are some links to the group project applications I had the
+                                pleasure of
+                                working on for class. </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="https://queenayana.github.io/Sunday_Outlaws/">
+                                <img id="logo-4" src="assets/images/Furry-Friend-Finder.png">
+                            </a>
+                            <p id="portTxt2">This project I was responsible for coding the HTML specifically, but
+                                the group
+                                worked together to make sure it was function and fit the look we all wanted it to
+                                have. You can view the github repo <a href="https://github.com/QueenAyana/Sunday_Outlaws">here! </p>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="https://blooming-falls-32877.herokuapp.com/">
+                                <img id="logo-6" src="assets/images/Band-Mates.png">
+                            </a>
+                            <p id="portTxt2">This project I was responsible for coding in the passport.js functionality
+                                for the page.You can view the github repo <a href="https://github.com/mwomack117/2-group-project">here!</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer></footer>
+</body>
+<script src="assets/script/script.js"></script>
+
+</html
