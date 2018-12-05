@@ -12,7 +12,7 @@ app.use(express.static('public'))
 
 
 // Import routes and give the server access to them.
-var htmlRoutes = require("./routes/htmlRoutes");
+var htmlRoutes = require("./routes/htmlroutes");
 htmlRoutes(app)
 
 // Start our server so that it can begin listening to client requests.
