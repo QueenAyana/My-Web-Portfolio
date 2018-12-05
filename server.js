@@ -1,4 +1,5 @@
 var express = require("express");
+var path = require("path")
 
 var app = express();
 
@@ -11,10 +12,11 @@ app.use(express.static('public'))
 
 
 // Import routes and give the server access to them.
-require("./routes/htmlRoutes");
+var htmlRoutes = require("./routes/htmlRoutes");
+htmlRoutes(app)
 
 // Start our server so that it can begin listening to client requests.
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   // Log (server-side) when our server has started
   console.log("Server listening on: http://localhost:" + PORT);
 });
