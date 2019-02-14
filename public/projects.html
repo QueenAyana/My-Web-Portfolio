@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amber Brune</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="/">
+                            <img id="nameImg" src="assets/images/Amber-Brune.png" alt="Amber Brune">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="navBtnDiv">
+                            <button type="button" id="modalBtn" class="btn btn-light" data-toggle="modal" data-target="#modalCenter">
+                                Contact Info.
+                            </button>
+                            <a href="/">
+                                <button class="btn btn-light" id="navLnk">About Me</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <!--Homework link Jumbotron-->
+            <div class="col-sm-5">
+                <div class="jumbotron" id="jumboR">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="titleCol">
+                                    <div id="title">Solo Applications</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div id="titleTxtCol">
+                                    <p id="portTxt">Here are some links to applications I have designed myself as
+                                        assignments
+                                        for
+                                        school.
+                                        The functionality will vary based on what I had learned at the time. The
+                                        applications
+                                        may
+                                        be updated over time as I fix any errors in the code. </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="appRow">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <div id="appTitle">Burger Mania</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <a href="https://eatdaburger24.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                                    <button class="btn btn-light" id="navLnk">
+                                                        View App
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div>
+                                            <p id="portTxt2"> Buger Mania is a web aplication that let a user add
+                                                burgers
+                                                to their menu as well as "devour" them. The burgers That have been
+                                                "devoured" are also kept track of. You can view the github repo <a href="https://github.com/QueenAyana/2-group-project"
+                                                    target="_blank" rel="noopener noreferrer">here!</a>
+                                            </p>
+                                            <p id="portTxt2">
+                                                Applitcation made with:
+                                                <ul>
+                                                    <li>Handlebars</li>
+                                                    <li>Bootstrap CDN</li>
+                                                    <li>CSS</li>
+                                                    <li>MySQL/Sequilize</li>
+                                                    <li>Node.js</li>
+                                                    <li>Express-NPM</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="appRow">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <div id="appTitle">Engram Buster</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <a href="https://queenayana.github.io/EngramBuster/" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    <button class="btn btn-primary" id="navLnk">
+                                                        View App
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p id="portTxt2"> Engram Buster is a front end application that has the
+                                            user click on the "engrams" images to build up a score that matches
+                                            the
+                                            goal score. If the player goes over its game over. Each "engram"
+                                            gets a
+                                            random value when the game starts. You can view the
+                                            github repo <a href="https://github.com/QueenAyana/EngramBuster" target="_blank"
+                                                rel="noopener noreferrer">here!</a>
+                                        </p>
+                                        <p id="portTxt2">
+                                            Applitcation made with:
+                                            <ul>
+                                                <li>Html5</li>
+                                                <li>Bootstrap CDN</li>
+                                                <li>CSS</li>
+                                                <li>Javascript</li>
+                                                <li>JQuery</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="appRow">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <div id="appTitle">Giftastic</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <a href="https://queenayana.github.io/Giftastic/" target="_blank" rel="noopener noreferrer">
+                                                    <button class="btn btn-primary" id="navLnk">
+                                                        View App
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p id="portTxt2"> Giftastic is a front end only web application that
+                                            allows the user to search gifs by keyword. It uses DOM manipulation
+                                            and AJAX calls to show the Gifs from "giphy.com". You can view the
+                                            github repo <a href="https://github.com/QueenAyana/Giftastic" target="_blank"
+                                                rel="noopener noreferrer">here!</a>
+                                        </p>
+                                        <p id="portTxt2">
+                                            Applitcation made with:
+                                            <ul>
+                                                <li>Html5</li>
+                                                <li>Bootstrap CDN</li>
+                                                <li>CSS</li>
+                                                <li>Javascript</li>
+                                                <li>JQuery</li>
+                                                <li>Giphy.com API</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="appRow">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <div id="appTitle">Dragon Dating</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <a href="https://dragondating.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                                    <button class="btn btn-primary" id="navLnk">
+                                                        View App
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p id="portTxt2"> Dragon Dating is a mock dating app with a
+                                            "personality quiz". It takes your answers and compares them to the
+                                            other users that have used the app as well. You can view the github
+                                            repo <a href="https://github.com/QueenAyana/FriendFinder" target="_blank"
+                                                rel="noopener noreferrer">here!</a>
+                                        </p>
+                                        <p id="portTxt2">
+                                            Applitcation made with:
+                                            <ul>
+                                                <li>Html5</li>
+                                                <li>Bootstrap CDN</li>
+                                                <li>CSS</li>
+                                                <li>MySQL/Sequilize</li>
+                                                <li>Node.js</li>
+                                                <li>Express-NPM</li>
+                                                <li>Axios-NPM </li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="appRow">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <div id="appTitle">NYT Artical Scraper</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <a href="https://sleepy-temple-44954.herokuapp.com/" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    <button class="btn btn-primary" id="navLnk">
+                                                        View App
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p id="portTxt2">The NYT React Article Scrubber is a web application
+                                            that captures the headline from a users search query. Users have
+                                            the ability to save articles for later reference, as well as delete
+                                            old articles they no longer wish to keep. NYT React Article
+                                            Scrubber demonstrates CRUD, four basic functions of persistent
+                                            storage, using MongoDB. You can view the github repo <a href="https://github.com/QueenAyana/nytReactScrapr"
+                                                target="_blank" rel="noopener noreferrer">here!</a>
+                                        </p>
+                                        <p id="portTxt2">
+                                            Applitcation made with:
+                                            <ul>
+                                                <li>React.js</li>
+                                                <li>ES6 coding format</li>
+                                                <li>Bootstrap CDN</li>
+                                                <li>CSS</li>
+                                                <li>MongoDB/Mongoose-NPM</li>
+                                                <li>Node.js</li>
+                                                <li>Express-NPM</li>
+                                                <li>Axios-NPM </li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="appRow">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <div id="appTitle">Lunar Trivia</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <a href="https://queenayana.github.io/LunarTrivia/" target="_blank" rel="noopener noreferrer">
+                                                    <button class="btn btn-primary" id="navLnk">
+                                                        View App
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p id="portTxt2"> This is a Lunar Trivia game built with Javascript
+                                            logic and jQuery to manipulate HTML. You can view the github repo
+                                            <a href="https://github.com/QueenAyana/LunarTrivia" target="_blank" rel="noopener noreferrer">here!</a>
+                                        </p>
+                                        <p id="portTxt2">
+                                            Applitcation made with:
+                                            <ul>
+                                                <li>Html5</li>
+                                                <li>CSS</li>
+                                                <li>Bootstrap</li>
+                                                <li>Javascript</li>
+                                                <li>JQuery</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Project link Jumbotron-->
+            <div class="col-sm-5">
+                <div class="jumbotron" id="jumboL">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="title">Group Applications</div>
+                            </div>
+                            <div class="col-12">
+                                <p id="portTxt">Below are some links to the group project
+                                    applications I had the
+                                    pleasure of working on for class. </p>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="appRow">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <div id="appTitle">Hubble.com</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <a href="https://floating-sands-37043.herokuapp.com/" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    <button class="btn btn-primary" id="navLnk">
+                                                        View App
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p id="portTxt2">This project, I coded the entirety of the Appication
+                                            with the
+                                            guidance of two of my group members. You can view the github repo
+                                            <a href="https://github.com/QueenAyana/Hubble.Com" target="_blank" rel="noopener noreferrer">here!</a>
+                                        </p>
+                                        <p id="portTxt2">
+                                            Applitcation made with:
+                                            <ul>
+                                                <li>React.js</li>
+                                                <li>CSS</li>
+                                                <li>Node.js</li>
+                                                <li>MongoDB/Mongoose-NPM</li>
+                                                <li>Passport.js</li>
+                                                <li>Express-NPM</li>
+                                                <li>Reactstrap-npm</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div id="appRow">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <div id="appTitle">Furry Friend Finder</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div id="projHeadr">
+                                                <a href="https://queenayana.github.io/Sunday_Outlaws/" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    <button class="btn btn-primary" id="navLnk">
+                                                        View App
+                                                    </button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p id="portTxt2">This project I was responsible for
+                                            coding the HTML
+                                            specifically,
+                                            but
+                                            the group
+                                            worked together to make sure it was functional and
+                                            fit the look we all
+                                            wanted
+                                            it
+                                            to
+                                            have. You can view the github repo <a href="https://github.com/QueenAyana/Sunday_Outlaws"
+                                                target="_blank" rel="noopener noreferrer">here!</a>
+                                        </p>
+                                        <p id="portTxt2">
+                                            Applitcation made with:
+                                            <ul>
+                                                <li>Html5</li>
+                                                <li>CSS</li>
+                                                <li>Bootstrap</li>
+                                                <li>Javascript</li>
+                                                <li>JQuery</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div id="appRow">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div id="projHeadr">
+                                            <div id="appTitle">Band Mates</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div id="projHeadr">
+                                            <a href="https://blooming-falls-32877.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                                <button class="btn btn-primary" id="navLnk">
+                                                    View App
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p id="portTxt2">This project I was responsible for
+                                        coding the
+                                        passport.js
+                                        functionality
+                                        for the page. You can view the github repo <a href="https://github.com/QueenAyana/2-group-project"
+                                            target="_blank" rel="noopener noreferrer">here!</a>
+                                    </p>
+                                    <p id="portTxt2">
+                                        Applitcation made with:
+                                        <ul>
+                                            <li>Handlebars</li>
+                                            <li>CSS</li>
+                                            <li>MySQL</li>
+                                            <li>Node.js</li>
+                                            <li>Express.js</li>
+                                            <li>Passport.js</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Modial -->
+    <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalCenterTitle">Amber Renee Brune</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-text">If you wish to contact me:</p>
+                    <p id="modal-text">My Cell:(424) 318-8289</p>
+                    <p id="modal-text">My Email: amberrose9167@gmail.com</p>
+                    <p><a href="https://drive.google.com/file/d/1anJM0lOk92T_4n8qJqtgXnYeshImEjcr" id="resumeLnk" class="card-link"
+                            target="_blank" rel="noopener noreferrer">
+                            <span class="fas fa-file-pdf"></span> My Resume</a>
+                        <a href="https://github.com/QueenAyana" id="gitLink" class="card-link" target="_blank" rel="noopener noreferrer">
+                            <span class="fab fa-github"></span> My Github</a>
+                        <a href="https://www.linkedin.com/in/amber-brune-076691165/" id="linkIn" class="card-link"
+                            target="_blank" rel="noopener noreferrer">
+                            <span class="fab fa-linkedin"></span> My Linkedin</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="assets/script/script.js"></script>
+
+</html>

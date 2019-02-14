@@ -19,12 +19,12 @@ body{
     border: solid #cccccc;
     position: relative;
     padding: 40px 30px 40px 30px;
-    margin: 0px auto;
+    margin: 15px auto;
     border-width: 2px;
     width: 75%;
 }
 .text{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: cursive;
     color: #777777;
     margin: 22px 15px 17px 15px;
     font-size: 14pt;
@@ -33,117 +33,112 @@ body{
 }
 
 #title{
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: cursive;
     color: #4aaaa5;
-    border-bottom: groove 4px;
-    border-bottom-color: #dddddd;
-    margin: 15px;
     font-size: 22pt;
     padding-bottom: 30px;
     letter-spacing: 1px;
     line-height: 0.8;
+    text-align: center;
+}
+
+#projectsBtn{
+    background-color:#1c908b
+    !important;
+    position: relative;
+    margin-right: 10%;
+    float: right;
 }
 
 /*---------------------------------Work Link Jumbotron-------------------------------------------------*/
-#box-3{
-    background-color: #ffffff;
-    border: solid #cccccc;
-    position: relative;
-    padding: 40px 30px 40px 30px;
-    margin: 0px auto;
-    border-width: 2px;
-    width: 75%;
-}
-
-/*minecraft hangman*/
-#logo-1{
-    position: relative;
-    width: 100%;
-    color: #ffffff;
-    margin: 15px 5px 15px 5px;
-    padding: 10px;
-    float: left;
-}
-/*engram buster*/
-#logo-2{
-    position: relative;
-    width: 100%;
-    color: #ffffff;
-    margin: 15px 5px 15px 5px;
-    padding: 10px;
-    float: left;
-}
-/*giftastic*/
-#logo-3{
-    position: relative;
-    width: 100%;
-    color: #ffffff;
-    margin: 15px 5px 15px 5px;
-    padding: 10px;
-    float: left;
-}
-/*furry friend finder*/
-#logo-4{
-    position: relative;
-    width: 100%;
-    color: #ffffff;
-    margin: 15px 5px 15px 5px;
-    padding: 10px;
-    float: left;
-}
-/*Burgur Mania*/
-#logo-5{
-    position: relative;
-    width: 100%;
-    color: #ffffff;
-    margin: 15px 5px 15px 5px;
-    padding: 10px;
-    float: left;
-}
-/* Band Mates */
-#logo-6{
-    position: relative;
-    width: 100%;
-    color: #ffffff;
-    margin: 15px 5px 15px 5px;
-    padding: 10px;
-    float: left;
-}
 #portTxt{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: cursive;
     color: #777777;
     margin: 20px 15px 20px 15px;
     font-size: 14pt;
     letter-spacing: 1px;
     padding-bottom: 15px;
-    border-bottom: dashed 4px;
-    border-bottom-color: #dddddd;
 }
 #portTxt2{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: cursive;
     color: #626262;
     margin: 35px 15px 17px 15px;
-    font-size: 14pt;
+    font-size: 12pt;
     letter-spacing: 1px;
 }
-#gitLink{
-    color:#1c908b
-    !important;
+ul{
+    font-family: cursive !important;
+    color: #777777 !important;
 
 }
-#linkIn{
+.card-link{
     color:#1c908b
     !important;
-
+    font-size: 16pt;
 }
-#modalBtn{
+.modal-body{
+    font-family: cursive;
+    font-size: 16pt;
+    color:#777777; 
+}
+.modal-title{
+    font-family: cursive;
+    font-size: 20pt;
+    color:#4aaaa5; 
+}
+
+#modalBtn2{
     background-color:#1c908b
     !important;
+    position: relative;
+    margin-left: 10%;
+}
+#aboutMeBtn{
+    background-color:#1c908b
+    !important;
+    position: relative;
+    margin-right: 10%;
+    float: right;
+}
+
+/*-----------------------------------------Projects------------------------------------------*/
+#jumboR{
+    margin-right: 15px;
+    background-color: #ffffff;
+    border: solid #cccccc;
+}
+#jumboL{
+    margin-left: 15px;
+    background-color: #ffffff;
+    border: solid #cccccc;
+}
+#linkBtn{
+    background-color:#1c908b
+    !important;
+    position: relative;
+    float: right;
+}
+
+#appTitle{
+    font-family: cursive;
+    color: #777777;
+    font-size: 22pt;
+    letter-spacing: 1px;
+    line-height: 0.8;
+    text-align: center
+}
+#appRow{
+    border-bottom: groove 4px;
+    border-bottom-color: #dddddd;
+    margin-top: 5%;
 
 }
-#resumeLnk{
-    color:#1c908b
-    !important;
+#projHeadr{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
 
 }
 
@@ -153,16 +148,54 @@ nav{
     border-bottom: groove #cccccc;
     overflow: hidden;
     position: sticky;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 90px;
+    padding: 2rem;
 }
 #nameImg{
     position: relative;
-    left: 39.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 25rem;
-    top: 25%
+}
+.navbar{
+    padding: 0 !important;
+}
+#modalBtn{
+    font-family: cursive;
+    font-size: 14pt;
+    border-bottom-color: #1c908a75 !important;
+    border-left-color: #ffffff00 !important;
+    border-right-color: #ffffff00 !important;
+    border-top-color: #ffffff00 !important;
+    background-color: #ffffff00;
+    color:#1c908b
+    !important;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    margin-top: 1rem;
+}
+#navLnk{
+    font-family: cursive;
+    font-size: 14pt;
+    border-bottom-color: #1c908a75 !important;
+    border-left-color: #ffffff00 !important;
+    border-right-color: #ffffff00 !important;
+    border-top-color: #ffffff00 !important;
+    background-color: #ffffff00;
+    color:#1c908b
+    !important;
+    position: relative;
+    float: right;
+    margin-top: 1rem;
+}
+#navBtnDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 /*-----------------------------------Media Query-------------------------------*/
@@ -170,15 +203,16 @@ footer, header, nav, body{
     display: block;
 }
 #pagewrap {
-	width: 100%;
+    width: 100%;
 	margin: 0 auto;
+    font-size: 16pt;
 }
 @media screen and (min-width: 1025px) {
     #portTxt{
-        font-size: 18pt;      
+        font-size: 14pt;      
     }    
     #portTxt2{
-        font-size: 18pt;      
+        font-size: 14pt;      
     }    
     .text{
         font-size: 18pt;      
@@ -188,11 +222,9 @@ footer, header, nav, body{
     } 
     #nameImg{
         width: 23rem;
-        left: 43%;
-        top: 40%;
     }
     .imgMe{
-        width: 25%;
+        width: 15%;
     }
     .modal-body{
         font-size: 18pt
@@ -200,6 +232,14 @@ footer, header, nav, body{
     .modal-title{
         font-size: 18pt
     }
+}
+
+@media screen and (max-width: 1440px) {
+    #appTitle{
+        font-size: 20pt;
+    }
+    #nameImg {
+        width: 23rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -212,11 +252,6 @@ footer, header, nav, body{
     }
     #nameImg{
         width: 20rem;
-        left: 34%;
-        top: 50%;
-    }
-    #modalBtn{
-        width: 50%
     }
     .imgMe{
         width: 51%;
@@ -224,43 +259,39 @@ footer, header, nav, body{
     .text{
         margin: 20px 15px 17px 15px;
     }
-    #logo-4{
-        width: 110%;
-        height: 42px;
-    }
-    #logo-6{
-        width: 110%;
-        height: 42px;
-    }
     #portTxt{
         font-size: 12pt;      
     }    
     #portTxt2{
         font-size: 12pt;      
+    }
+    ul{
+        font-size: 10pt;
     }    
     .text{
         font-size: 12pt;      
     } 
     #title{
         font-size: 16pt;
+    }
+    #navLnk, #modalBtn {
+        font-size: 12pt;
     }   
-    
+    #appTitle{
+        font-size: 14pt;
+    }
 }
 @media screen and (max-width: 768px){
     #nameImg{
         width: 20rem;
-        left: 27%;
-        top: 50%;
     }
     .imgMe{
         float: left;
         width: 51%;
     }
-    .navlnk{
-        position: fixed;
-        width: 50%;
-        left: 53%
-    }
+    #navLnk, #modalBtn {
+        font-size: 10pt;
+    } 
     #portTxt{
         font-size: 10pt;      
     }    
@@ -273,45 +304,10 @@ footer, header, nav, body{
     #title{
         font-size: 14pt;
     }   
-    #logo-1{
-        width: 110%;
-        height: 55px;
-        left: 5%;
-    }
-    #logo-2{
-        width: 110%;
-        height: 40px;
-        right: 10%;
-    }
-    #logo-3{
-        width: 115%;
-        height: 45px;
-        left: 5%;
-    }
-    #logo-4{
-        width: 133%;
-        height: 45px;
-        right: 10%;
-    }
-    #logo-5{
-        width: 110%;
-        height: 43px;
-        right: 10%;
-    }
-    #logo-6{
-        width: 130%;
-        height: 50px;
-        right: 10%;
-    }
-    #modalBtn{
-        width: 7rem;
-    }
 }
 @media screen and (max-width: 700px){
     #nameImg{
         width: 20rem;
-        left: 27%;
-        top: 50%;
     }
     .imgMe{
         float: left;
@@ -334,45 +330,20 @@ footer, header, nav, body{
     #title{
         font-size: 14pt;
     }   
-    #logo-1{
-        width: 110%;
-        height: 55px;
-        left: 5%;
+}
+@media screen and (max-width: 575px){
+    #jumboL{
+        margin-left: 0;
     }
-    #logo-2{
-        width: 110%;
-        height: 40px;
-        right: 10%;
-    }
-    #logo-3{
-        width: 115%;
-        height: 45px;
-        left: 5%;
-    }
-    #logo-4{
-        width: 133%;
-        height: 45px;
-        right: 10%;
-    }
-    #logo-5{
-        width: 110%;
-        height: 43px;
-        right: 10%;
-    }
-    #logo-6{
-        width: 130%;
-        height: 50px;
-        right: 10%;
-    }
-    #modalBtn{
-        width: 7rem;
+    #jumboR{
+        margin-right: 0;
     }
 }
+
 @media screen and (max-width: 500px){
     #nameImg{
-        width: 12rem;
-        left: 23%;
-        top: 125%;
+        width: 13rem;
+        top: 30%;
     }
     .imgMe{
         float: left;
@@ -388,7 +359,10 @@ footer, header, nav, body{
     }    
     #portTxt2{
         font-size: 8pt;      
-    }    
+    }  
+    ul{
+        font-size: 8pt
+    }  
     .text{
         font-size: 8pt;      
     } 
@@ -398,37 +372,6 @@ footer, header, nav, body{
     #imgCol{
         width: 50%
     }  
-    #logo-1{
-        left: -8%;
-    }
-    #logo-2{
-        width: 110%;
-        height: 40px;
-        right: 10%;
-    }
-    #logo-3{
-        left: -10%;
-    }
-    #logo-4{
-        margin: 5px 5px 15px 5px;
-        width: 80%;
-        height: 45px;
-        right: -5%;
-    }
-    #logo-5{
-        width: 110%;
-        height: 43px;
-        right: 10%;
-    }
-    #logo-6{
-        margin: 5px 5px 15px 5px;
-        width: 80%;
-        height: 45px;
-        right: -5%;
-    }
-    #modalBtn{
-        width: 7rem;
-    }
     #box-3{
         margin-top: 15px
     }
